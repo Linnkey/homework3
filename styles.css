@@ -1,0 +1,104 @@
+body {
+    background: peachpuff;
+    font-family: monospace;
+    font-size: x-large;
+    color: orange;   
+   
+  }
+
+header {
+    text-align: center;
+}
+
+    
+
+#results {
+    margin-top: 2%;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr) ) ;
+    grid-gap: 3px;
+    align-content: center;
+    justify-items: center;
+    
+}
+
+
+footer 
+
+{
+    text-align: center;
+}
+
+
+
+.fizz:hover {
+    box-shadow: 4px 5px 5px 0px rgb(107, 59, 0)
+}
+
+
+.fizzbuzz:hover { 
+    box-shadow: 4px 5px 5px 0px rgb(107, 59, 0)
+}
+
+.other:hover{
+    box-shadow: 4px 5px 5px 0px rgb(107, 59, 0)
+}
+
+.buzz:hover{
+    box-shadow: 4px 5px 5px 0px rgb(107, 59, 0)
+}
+
+.fizz {
+
+    background-color: rgb(253, 178, 86);
+    border: 2px rgba(245, 245, 245, 0.699) solid;
+    border-radius: 6px;
+    margin: 3px;
+    width: 100px ;
+    height: 100px;
+    color: whitesmoke;
+    font-size: small;
+    text-align: center;
+}
+
+
+
+.buzz {
+    background-color: darkorange;
+    border: 2px rgba(245, 245, 245, 0.699) solid;
+    border-radius: 6px;
+    margin: 3px;
+    width: 100px ;
+    height: 100px;
+    color: whitesmoke;
+    font-size: small;
+    text-align: center;
+}
+
+.fizzbuzz {
+    background-color: rgb(104, 58, 3);
+    border: 2px rgba(245, 245, 245, 0.699) solid;
+    border-radius: 6px;
+    margin: 3px;
+    width: 100px ;
+    height: 100px;
+    color: whitesmoke;
+    font-size: small;
+    text-align: center;
+}
+
+.other {
+
+    background-color: rgb(236, 167, 82);
+    border: 2px rgba(245, 245, 245, 0.699) solid;
+    border-radius: 6px;
+    margin: 3px;
+    width: 100px ;
+    height: 100px;
+    color: whitesmoke;
+    font-size: small;
+    text-align: center;
+}
+    
